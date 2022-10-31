@@ -1,1 +1,1 @@
-web: rake db:drop:_unsafe db:create db:migrate db:seed && bundle exec rails server -p $PORT
+web: bundle exec rails server -p $PORT
