@@ -4,7 +4,7 @@ more_movies = [
     :release_date => '17-Feb-2010'},
   {:title => 'The Batman', :rating => 'PG-13',
     :release_date => '01-Mar-2022'},
-  {:title => 'Shutter Island', :rating => 'PG',
+  {:title => 'Kung Fu Panda', :rating => 'PG',
     :release_date => '05-Jun-2008'},
 ]
 
