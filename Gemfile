@@ -11,10 +11,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
-
-group :development, :test, :production do
-  gem "sqlite3"
-end
+gem "pg"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
@@ -30,7 +27,10 @@ group :test do
   gem "webdrivers"
 end
 
-# Deprecated
+# group :development, :test do
+#   gem "sqlite3"
+# end
+
 # group :production do
 #   gem "pg" # for Heroku deployment
 # end
