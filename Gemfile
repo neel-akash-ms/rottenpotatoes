@@ -30,6 +30,7 @@ group :test do
   gem "webdrivers"
 end
 
+# Deprecated
 # group :production do
 #   gem "pg" # for Heroku deployment
 # end

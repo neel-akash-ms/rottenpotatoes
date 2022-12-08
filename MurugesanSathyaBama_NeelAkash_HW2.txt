@@ -1,1 +1,3 @@
-https://rp-neel.herokuapp.com/
+https://rottenpotatoes-no566.ondigitalocean.app
+
+~~ https://rp-neel.herokuapp.com/ ~~ (Deprecated)
