@@ -12,7 +12,7 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
-group :development, :test do
+group :development, :test, :production do
   gem "sqlite3"
 end
 
@@ -30,6 +30,6 @@ group :test do
   gem "webdrivers"
 end
 
-group :production do
-  gem "pg" # for Heroku deployment
-end
+# group :production do
+#   gem "pg" # for Heroku deployment
+# end
