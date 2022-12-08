@@ -1,3 +1,5 @@
 https://rottenpotatoes-no566.ondigitalocean.app
 
+https://rottenpotatoes-pg-whmkc.ondigitalocean.app (Deployment using Postgresql incase the prof wants it same as herokuapp)
+
 ~~ https://rp-neel.herokuapp.com/ ~~ (Deprecated)
